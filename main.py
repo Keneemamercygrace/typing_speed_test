@@ -103,7 +103,6 @@ def pressed(keyevent):
                 print("Though the words are of the same size, it doesn't appear that the two words match! Retry again "
                       "for accurate results...")
 
-        # return wpm, acc
 
 
 input_text.bind('<KeyRelease>', pressed)
